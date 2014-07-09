@@ -1,13 +1,13 @@
 doctype
 html
   head
-    != partial("_includes/head")
+    != partial("_includes/_head")
   body
     header
-      != partial("_includes/header")
+      != partial("_includes/_header")
     main
       != yield
     footer
-      != partial("_includes/footer")
+      != partial("_includes/_footer")
     != partial("_includes/_js")
     != partial("_includes/_analytics")
